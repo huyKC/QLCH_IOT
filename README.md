@@ -13,7 +13,8 @@ website này chỉ có mục đích để khách hàng xem và liên lạc, khô
 
 - 1 windowform app : để chủ nhà có thể thực hiện các thao tác quản lý thẻ, căn hộ, khách
 
-  => _Đánh giá tiến trình: xây dựng xong giao diện cơ bản, chưa thiết lập event vì đang chỉnh sửa database_
+  => _Đánh giá tiến trình: xây dựng xong giao diện cơ bản, xây dựng xong event chức năng_
+  link video demo : https://youtu.be/vp_R4wcvZz8
 
 - 1 script sử dụng cho "ID reader A" : được đặt ở vị trí quầy tiếp tân hoặc phòng làm việc, gần thiết bị PC/Laptop chứa database, "ID reader A" có chức năng đọc và viết thông tin XYZ(mã căn hộ) vào thẻ RFID
 
