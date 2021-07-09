@@ -496,7 +496,7 @@ namespace QuanLyCanHo_demo
             
 
             DataTable dt = new DataTable();
-            string query = "select guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x'";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -517,7 +517,7 @@ namespace QuanLyCanHo_demo
             String cmnd = boxCMND.Text;
             
             DataTable dt = new DataTable();
-            string query = "select guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND guest.CMND = '"+cmnd+"'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND guest.CMND = '" + cmnd+"'";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -536,7 +536,7 @@ namespace QuanLyCanHo_demo
         private void button6_Click(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            string query = "select guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x' AND contract.Status ='1'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x' AND contract.Status ='1'";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -555,7 +555,7 @@ namespace QuanLyCanHo_demo
         private void button7_Click(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            string query = "select guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x' AND contract.Status ='0'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x' AND contract.Status ='0'";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -642,7 +642,7 @@ namespace QuanLyCanHo_demo
 
             DataTable dt = new DataTable();
 
-            string query = "select guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND guest.CMND = '" + IDKey + "'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.C_ID = '" + IDKey + "' ";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -656,13 +656,13 @@ namespace QuanLyCanHo_demo
                 //CardGridView.DataSource = dt;
             }
 
-            boxCMND.Text = dt.Rows[0][0].ToString();
-            boxFirstName.Text = dt.Rows[0][1].ToString();
-            boxLastName.Text = dt.Rows[0][2].ToString();
-            boxGuestsRoom.Text = dt.Rows[0][4].ToString();
-            boxGuestPhone.Text = dt.Rows[0][3].ToString();
-            boxGuestIN.Text = dt.Rows[0][5].ToString();
-            boxGuestOut.Text = dt.Rows[0][6].ToString();
+            boxCMND.Text = dt.Rows[0][1].ToString();
+            boxFirstName.Text = dt.Rows[0][2].ToString();
+            boxLastName.Text = dt.Rows[0][3].ToString();
+            boxGuestsRoom.Text = dt.Rows[0][5].ToString();
+            boxGuestPhone.Text = dt.Rows[0][4].ToString();
+            boxGuestIN.Text = dt.Rows[0][6].ToString();
+            boxGuestOut.Text = dt.Rows[0][7].ToString();
         }
 
 
