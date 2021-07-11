@@ -17,15 +17,9 @@ website này chỉ có mục đích để khách hàng xem và liên lạc, khô
   
 link video demo : https://youtu.be/BgEB9Lvi3Dc
 
-- 1 script sử dụng cho "ID reader A" : được đặt ở vị trí quầy tiếp tân hoặc phòng làm việc, gần thiết bị PC/Laptop chứa database, "ID reader A" có chức năng đọc và viết thông tin XYZ(mã căn hộ) vào thẻ RFID
-
-  => _Đánh giá tiến trình: đã hoàn thiện việc kết nối reader vào giao diện app, có thể đọc ID và đưa lên giao diện app ; đã có code viết thông tin XYZ vào thẻ nhưng chưa sử dụng được trên app, chỉ có thể làm bằng arduino monitor_
-
-- 1 script sử dụng cho "ID reader B" : được đặt ở vị trí cửa phòng căn hộ, không kết nối trực tiếp với PC/Laptop, "ID reader B" có chức năng đọc thông tin XYZ được lưu trong thẻ, sau đó so sánh với mã căn hộ được lưu trong code của từng reader theo căn hộ; sau khi xác nhận thẻ ID hợp lệ reader sẽ gửi thông tin ID của thẻ và mã căn hộ lên server thông qua wifi; khi server nhận được ID thẻ và mã căn hộ, sẽ lưu lại vào database cùng với thời gian thực tế
-
-  => _Đánh giá tiến trình: đã có code đọc thông tin lưu trong thẻ ; đẩy được data lên server qua wifi_
-
-- 1 script sử dụng cho "ID reader C" : được đặt ở vị trí ra vào bãi xe, không kết nối trực tiếp với PC/Laptop, "ID reader C" có chức năng kiểm tra ID của thẻ; nếu thẻ hợp lệ và được quét bởi máy C1 thì sẽ log lại thời gian vào, nếu thẻ hợp lệ và được quét bởi máy C2 thì sẽ được log lại là thời gian ra
-
-  => _Đánh giá tiến trình: đã có code đọc thông tin lưu trong thẻ ; đẩy được data lên server qua wifi
-_
+- Các sketch arduino dùng cho RFID bao gồm :
+- 1 sketch cho việc đọc ID thẻ nhựa
+- 1 sketch cho việc viết data cần lưu trữ cào thẻ
+- 1 sketch cho việc đọc data ở cổng gửi xe ra vào
+- 1 sketch cho việc đọc data ở cửa chính vào căn hộ
+- chi tiết các sketch được chứa trong thư mục DỰ ÁN 2 ARDUINO CODE .note
