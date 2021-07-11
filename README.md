@@ -23,9 +23,9 @@ link video demo : https://youtu.be/BgEB9Lvi3Dc
 
 - 1 script sử dụng cho "ID reader B" : được đặt ở vị trí cửa phòng căn hộ, không kết nối trực tiếp với PC/Laptop, "ID reader B" có chức năng đọc thông tin XYZ được lưu trong thẻ, sau đó so sánh với mã căn hộ được lưu trong code của từng reader theo căn hộ; sau khi xác nhận thẻ ID hợp lệ reader sẽ gửi thông tin ID của thẻ và mã căn hộ lên server thông qua wifi; khi server nhận được ID thẻ và mã căn hộ, sẽ lưu lại vào database cùng với thời gian thực tế
 
-  => _Đánh giá tiến trình: đã có code đọc thông tin lưu trong thẻ ; chưa thực hiện được việc đẩy data lên server qua wifi_
+  => _Đánh giá tiến trình: đã có code đọc thông tin lưu trong thẻ ; đẩy được data lên server qua wifi_
 
 - 1 script sử dụng cho "ID reader C" : được đặt ở vị trí ra vào bãi xe, không kết nối trực tiếp với PC/Laptop, "ID reader C" có chức năng kiểm tra ID của thẻ; nếu thẻ hợp lệ và được quét bởi máy C1 thì sẽ log lại thời gian vào, nếu thẻ hợp lệ và được quét bởi máy C2 thì sẽ được log lại là thời gian ra
 
-  => _Đánh giá tiến trình: đã có code đọc thông tin lưu trong thẻ ; chưa thực hiện được việc đẩy data lên server qua wifi
+  => _Đánh giá tiến trình: đã có code đọc thông tin lưu trong thẻ ; đẩy được data lên server qua wifi
 _
