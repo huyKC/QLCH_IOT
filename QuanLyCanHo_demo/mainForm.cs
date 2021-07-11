@@ -60,7 +60,7 @@ namespace QuanLyCanHo_demo
             RFID.Parity = Parity.None;
             RFID.StopBits = StopBits.One;
 
-            //RFID.Open();
+            RFID.Open();
             RFID.ReadTimeout = 200;
 
             if (RFID.IsOpen)
@@ -162,6 +162,8 @@ namespace QuanLyCanHo_demo
             //String rid = box
 
             DataTable dt = new DataTable();
+            // kiểm tra thẻ đã tồn tại trong cơ sở dữ liệu hay chưa
+            string queryx = "select * from card  where ID = '"+cid+"'";
             // thêm vào bảng card thẻ có ID = cid
             string query = "insert into card (ID) values ('" + cid + "')";
             // thêm vào bảng roomscardsvalid thẻ có ID = cid và để căn hộ mặc định = un_use, tức là thẻ mới được thêm vào và chưa dùng cho phòng nào
@@ -173,24 +175,41 @@ namespace QuanLyCanHo_demo
 
             using (MySqlConnection con = new MySqlConnection(constr))
             {
-                // thêm thẻ vào bảng card trước để thỏa mãn khóa ngoại
-                con.Open();
-                MySqlCommand cmd = new MySqlCommand(query, con);
-                MySqlDataReader reader = cmd.ExecuteReader();
-                con.Close();
+                //con.Open();
 
-                // thêm thẻ vào bảng roomscardsvalid 
-                con.Open();
-                MySqlCommand cmd1 = new MySqlCommand(query1, con);
-                MySqlDataReader reader1 = cmd1.ExecuteReader();
-                con.Close();
+                //MySqlDataAdapter da = new MySqlDataAdapter(queryx, con);
 
-                con.Open();
-                MySqlCommand cmd2 = new MySqlCommand(query2, con);
-                MySqlDataReader reader2 = cmd2.ExecuteReader();
+                //da.Fill(dt);
+                //con.Close();
+                //if (dt.Rows.Count < 1)
+                //{
+                    // thêm thẻ vào bảng card trước để thỏa mãn khóa ngoại
+                    con.Open();
+                    MySqlCommand cmd = new MySqlCommand(query, con);
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    con.Close();
+
+                    // thêm thẻ vào bảng roomscardsvalid 
+                    con.Open();
+                    MySqlCommand cmd1 = new MySqlCommand(query1, con);
+                    MySqlDataReader reader1 = cmd1.ExecuteReader();
+                    con.Close();
+
+                    con.Open();
+                    MySqlCommand cmd2 = new MySqlCommand(query2, con);
+                    MySqlDataReader reader2 = cmd2.ExecuteReader();
 
 
-                MessageBox.Show("Card saved");
+                    MessageBox.Show("Card saved");
+
+                //}
+                //else
+                //{
+                    //MessageBox.Show("This card already have.");
+                //}
+
+                
+                
             }
         }
 
@@ -283,7 +302,7 @@ namespace QuanLyCanHo_demo
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 MySqlDataReader reader = cmd.ExecuteReader();
                 con.Close();
-
+                //MessageBox.Show(cid.Trim());
                 con.Open();
                 MySqlCommand cmd1 = new MySqlCommand(query1, con);
                 MySqlDataReader reader1 = cmd1.ExecuteReader();
