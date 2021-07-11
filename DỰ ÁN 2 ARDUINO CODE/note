@@ -1,0 +1,18 @@
+Các code arduino được xây dựng trên cơ sở thiết bị:
+- mạch controller + module thu phát wifi : ESP8266 : https://hshop.vn/products/kit-rf-thu-phat-wifi-esp8266-nodemcu
+- module thu phát RFID : MRFC522 : https://hshop.vn/products/mach-rfid-rc522-nfc-13-56mhz
+- dây cáp
+- breadboard
+
+Chức năng của các code:
+- sketch 9a : code để đọc thông tin ID từ thẻ và truyền dữ liệu lên text box của app quản lý, kết nối trực tiếp với máy tính thông qua cáp USB
+
+- sketch 9c : code tổng chứa tất cả các tính năng đọc data, dùng để nghiên cứu và testing
+
+- sketch 9d : code tính năng đọc data thẻ ở cửa chính vào căn hộ A110
+
+- sketch 9e : code tính năng đọc data thẻ ở cửa chính vào căn hộ C110
+
+- sketch 9f : code tính năng đọc data thẻ ở cổng ra vào chỗ gửi xe
+
+- write_room_bike: code để viết data vào thẻ, vẫn chưa sử dụng được trên app, phải sử dụng trên serial monitor của arduino IDE
