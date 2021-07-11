@@ -1,6 +1,6 @@
 Các code arduino được xây dựng trên cơ sở thiết bị:
 - mạch controller + module thu phát wifi : ESP8266 : https://hshop.vn/products/kit-rf-thu-phat-wifi-esp8266-nodemcu
-- module thu phát RFID : MRFC522 : https://hshop.vn/products/mach-rfid-rc522-nfc-13-56mhz
+- module thu phát RFID : MFRC522 : https://hshop.vn/products/mach-rfid-rc522-nfc-13-56mhz
 - dây cáp
 - breadboard
 
