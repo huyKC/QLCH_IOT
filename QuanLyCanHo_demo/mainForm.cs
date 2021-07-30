@@ -60,7 +60,7 @@ namespace QuanLyCanHo_demo
             RFID.Parity = Parity.None;
             RFID.StopBits = StopBits.One;
 
-            RFID.Open();
+            //RFID.Open();
             RFID.ReadTimeout = 200;
 
             if (RFID.IsOpen)
@@ -373,7 +373,7 @@ namespace QuanLyCanHo_demo
             // thêm ng khách room
             string query1 = "INSERT INTO guest (CMND, firstName, lastName, sdt) VALUES ('" + rid + "','x','x','x')";
             // thêm contract cho phòng
-            string query2 = "INSERT INTO contract (Room, Cmnd, Start_Day, End_Date) VALUES ('" + rid + "','"+rid+"','x','x')";
+            string query2 = "INSERT INTO contract (Room, Cmnd, Start_Date, End_Date) VALUES ('" + rid + "','"+rid+"','x','x')";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -515,7 +515,7 @@ namespace QuanLyCanHo_demo
             
 
             DataTable dt = new DataTable();
-            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Date, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Date not like 'x'";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -536,7 +536,7 @@ namespace QuanLyCanHo_demo
             String cmnd = boxCMND.Text;
             
             DataTable dt = new DataTable();
-            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND guest.CMND = '" + cmnd+"'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Date, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND guest.CMND = '" + cmnd+"'";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -555,7 +555,7 @@ namespace QuanLyCanHo_demo
         private void button6_Click(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x' AND contract.Status ='1'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Date, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Date not like 'x' AND contract.Status ='1'";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -574,7 +574,7 @@ namespace QuanLyCanHo_demo
         private void button7_Click(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Day not like 'x' AND contract.Status ='0'";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Date, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.Start_Date not like 'x' AND contract.Status ='0'";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -661,7 +661,7 @@ namespace QuanLyCanHo_demo
 
             DataTable dt = new DataTable();
 
-            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Day, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.C_ID = '" + IDKey + "' ";
+            string query = "select contract.C_ID, guest.*, contract.Room, contract.Start_Date, contract.End_Date, contract.Status from guest, contract where guest.CMND = contract.Cmnd AND contract.C_ID = '" + IDKey + "' ";
 
             string constr = "server=localhost; Database = qlch; Uid = root; Pwd = ; Charset = utf8";
 
@@ -883,7 +883,7 @@ namespace QuanLyCanHo_demo
             // thêm thông tin khách vào bảng guest
             string query = "INSERT INTO guest (CMND, firstname, lastname, sdt) VALUES ('"+cmnd+"','"+fname+"','"+lname+"','"+phone+"')";
             // thêm thông tin vào contract
-            string query1 = "INSERT INTO contract ( Room, Cmnd, Start_Day, End_Date) VALUES ('" + rid + "','" + cmnd + "','" + timein.ToString() + "','" + timeout.ToString() + "')";
+            string query1 = "INSERT INTO contract ( Room, Cmnd, Start_Date, End_Date) VALUES ('" + rid + "','" + cmnd + "','" + timein.ToString() + "','" + timeout.ToString() + "')";
             // thêm thông tin người giữ thẻ
             string query2 = "insert into guest_hold_card (Card, CMND) values ('" + cid + "','" + cmnd + "')";
             // insert into guest_hold_card (Card, CMND, Status) values ('"+cid+"','"+CMND+"')
@@ -1041,7 +1041,14 @@ namespace QuanLyCanHo_demo
             textBox6.Clear();
             boxCardGiveGuest.Clear();
         }
-
-        
     }
+
+    /*
+     
+var settings = MongoClientSettings.FromConnectionString("mongodb+srv://<username>:<password>@cluster0.bz0p5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+var client = new MongoClient(settings);
+var database = client.GetDatabase("test");
+
+    mongodb+srv://<username>:<password>@cluster0.bz0p5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+     */
 }

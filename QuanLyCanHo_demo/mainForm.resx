@@ -117,6 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 101</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
@@ -128,6 +146,15 @@
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="boxCardStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>960, 106</value>
+  </data>
+  <data name="boxCardStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="boxCardStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;boxCardStatus.Name" xml:space="preserve">
     <value>boxCardStatus</value>
@@ -141,6 +168,27 @@
   <data name="&gt;&gt;boxCardStatus.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 106</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="&gt;&gt;label13.Name" xml:space="preserve">
     <value>label13</value>
   </data>
@@ -152,6 +200,21 @@
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="btnCardIDClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCardIDClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 27</value>
+  </data>
+  <data name="btnCardIDClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnCardIDClear.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnCardIDClear.Text" xml:space="preserve">
+    <value>Clear</value>
   </data>
   <data name="&gt;&gt;btnCardIDClear.Name" xml:space="preserve">
     <value>btnCardIDClear</value>
@@ -165,6 +228,21 @@
   <data name="&gt;&gt;btnCardIDClear.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="btnDelCardID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDelCardID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>846, 27</value>
+  </data>
+  <data name="btnDelCardID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnDelCardID.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnDelCardID.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
   <data name="&gt;&gt;btnDelCardID.Name" xml:space="preserve">
     <value>btnDelCardID</value>
   </data>
@@ -176,6 +254,21 @@
   </data>
   <data name="&gt;&gt;btnDelCardID.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="btnAddCardID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddCardID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 27</value>
+  </data>
+  <data name="btnAddCardID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnAddCardID.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnAddCardID.Text" xml:space="preserve">
+    <value>Add</value>
   </data>
   <data name="&gt;&gt;btnAddCardID.Name" xml:space="preserve">
     <value>btnAddCardID</value>
@@ -189,6 +282,21 @@
   <data name="&gt;&gt;btnAddCardID.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="btnSearchAllCardID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSearchAllCardID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 27</value>
+  </data>
+  <data name="btnSearchAllCardID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 33</value>
+  </data>
+  <data name="btnSearchAllCardID.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnSearchAllCardID.Text" xml:space="preserve">
+    <value>Search All</value>
+  </data>
   <data name="&gt;&gt;btnSearchAllCardID.Name" xml:space="preserve">
     <value>btnSearchAllCardID</value>
   </data>
@@ -200,6 +308,15 @@
   </data>
   <data name="&gt;&gt;btnSearchAllCardID.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="boxCardsGuest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 106</value>
+  </data>
+  <data name="boxCardsGuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="boxCardsGuest.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;boxCardsGuest.Name" xml:space="preserve">
     <value>boxCardsGuest</value>
@@ -213,6 +330,27 @@
   <data name="&gt;&gt;boxCardsGuest.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 106</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Guest</value>
+  </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
   </data>
@@ -224,6 +362,15 @@
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="boxCardsRoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 106</value>
+  </data>
+  <data name="boxCardsRoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="boxCardsRoom.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;boxCardsRoom.Name" xml:space="preserve">
     <value>boxCardsRoom</value>
@@ -237,6 +384,18 @@
   <data name="&gt;&gt;boxCardsRoom.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="CardGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 230</value>
+  </data>
+  <data name="CardGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="CardGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1290, 380</value>
+  </data>
+  <data name="CardGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="&gt;&gt;CardGridView.Name" xml:space="preserve">
     <value>CardGridView</value>
   </data>
@@ -248,6 +407,15 @@
   </data>
   <data name="&gt;&gt;CardGridView.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="boxCardID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 35</value>
+  </data>
+  <data name="boxCardID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="boxCardID.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;boxCardID.Name" xml:space="preserve">
     <value>boxCardID</value>
@@ -261,6 +429,24 @@
   <data name="&gt;&gt;boxCardID.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <data name="cardidroom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cardidroom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="cardidroom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 108</value>
+  </data>
+  <data name="cardidroom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="cardidroom.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cardidroom.Text" xml:space="preserve">
+    <value>Room</value>
+  </data>
   <data name="&gt;&gt;cardidroom.Name" xml:space="preserve">
     <value>cardidroom</value>
   </data>
@@ -272,6 +458,24 @@
   </data>
   <data name="&gt;&gt;cardidroom.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 35</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Card ID</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -285,6 +489,18 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="btnSearchCardId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 27</value>
+  </data>
+  <data name="btnSearchCardId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnSearchCardId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSearchCardId.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
   <data name="&gt;&gt;btnSearchCardId.Name" xml:space="preserve">
     <value>btnSearchCardId</value>
   </data>
@@ -297,18 +513,15 @@
   <data name="&gt;&gt;btnSearchCardId.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="tabCardManage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 34</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tabCardManage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabCardManage.Size" type="System.Drawing.Size, System.Drawing">
     <value>1312, 618</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tabCardManage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -327,6 +540,18 @@
   <data name="&gt;&gt;tabCardManage.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="RoomGuestDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 230</value>
+  </data>
+  <data name="RoomGuestDetail.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="RoomGuestDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 381</value>
+  </data>
+  <data name="RoomGuestDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
   <data name="&gt;&gt;RoomGuestDetail.Name" xml:space="preserve">
     <value>RoomGuestDetail</value>
   </data>
@@ -338,6 +563,15 @@
   </data>
   <data name="&gt;&gt;RoomGuestDetail.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="boxRoomID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 35</value>
+  </data>
+  <data name="boxRoomID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="boxRoomID.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
   <data name="&gt;&gt;boxRoomID.Name" xml:space="preserve">
     <value>boxRoomID</value>
@@ -351,6 +585,21 @@
   <data name="&gt;&gt;boxRoomID.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btnAddRoom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddRoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 108</value>
+  </data>
+  <data name="btnAddRoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 33</value>
+  </data>
+  <data name="btnAddRoom.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnAddRoom.Text" xml:space="preserve">
+    <value>Add Room</value>
+  </data>
   <data name="&gt;&gt;btnAddRoom.Name" xml:space="preserve">
     <value>btnAddRoom</value>
   </data>
@@ -362,6 +611,21 @@
   </data>
   <data name="&gt;&gt;btnAddRoom.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 108</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 33</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Clear</value>
   </data>
   <data name="&gt;&gt;button3.Name" xml:space="preserve">
     <value>button3</value>
@@ -375,6 +639,21 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 108</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 33</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Search All</value>
+  </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
   </data>
@@ -386,6 +665,21 @@
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="btnRoomTSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRoomTSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>850, 30</value>
+  </data>
+  <data name="btnRoomTSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnRoomTSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnRoomTSearch.Text" xml:space="preserve">
+    <value>Search</value>
   </data>
   <data name="&gt;&gt;btnRoomTSearch.Name" xml:space="preserve">
     <value>btnRoomTSearch</value>
@@ -399,6 +693,18 @@
   <data name="&gt;&gt;btnRoomTSearch.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="btnRoomIDSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 30</value>
+  </data>
+  <data name="btnRoomIDSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnRoomIDSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnRoomIDSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
   <data name="&gt;&gt;btnRoomIDSearch.Name" xml:space="preserve">
     <value>btnRoomIDSearch</value>
   </data>
@@ -410,6 +716,24 @@
   </data>
   <data name="&gt;&gt;btnRoomIDSearch.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="boxRoomType.Items" xml:space="preserve">
+    <value>2 người</value>
+  </data>
+  <data name="boxRoomType.Items1" xml:space="preserve">
+    <value>4 người</value>
+  </data>
+  <data name="boxRoomType.Items2" xml:space="preserve">
+    <value>6 người</value>
+  </data>
+  <data name="boxRoomType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 35</value>
+  </data>
+  <data name="boxRoomType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 24</value>
+  </data>
+  <data name="boxRoomType.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
   <data name="&gt;&gt;boxRoomType.Name" xml:space="preserve">
     <value>boxRoomType</value>
@@ -423,6 +747,27 @@
   <data name="&gt;&gt;boxRoomType.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 35</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 20</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Room Type</value>
+  </data>
   <data name="&gt;&gt;label12.Name" xml:space="preserve">
     <value>label12</value>
   </data>
@@ -434,6 +779,15 @@
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="boxRoomStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1040, 35</value>
+  </data>
+  <data name="boxRoomStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="boxRoomStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;boxRoomStatus.Name" xml:space="preserve">
     <value>boxRoomStatus</value>
@@ -447,6 +801,24 @@
   <data name="&gt;&gt;boxRoomStatus.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>959, 35</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
   </data>
@@ -459,6 +831,18 @@
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="RoomGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 230</value>
+  </data>
+  <data name="RoomGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="RoomGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 381</value>
+  </data>
+  <data name="RoomGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;RoomGridView.Name" xml:space="preserve">
     <value>RoomGridView</value>
   </data>
@@ -470,6 +854,24 @@
   </data>
   <data name="&gt;&gt;RoomGridView.ZOrder" xml:space="preserve">
     <value>11</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 35</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 25</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Room</value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -510,6 +912,21 @@
   <data name="&gt;&gt;tabRoomManage.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 27</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>Finish</value>
+  </data>
   <data name="&gt;&gt;button7.Name" xml:space="preserve">
     <value>button7</value>
   </data>
@@ -521,6 +938,21 @@
   </data>
   <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="button6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 27</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>Staying</value>
   </data>
   <data name="&gt;&gt;button6.Name" xml:space="preserve">
     <value>button6</value>
@@ -534,6 +966,21 @@
   <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>953, 28</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 33</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>Check out</value>
+  </data>
   <data name="&gt;&gt;button4.Name" xml:space="preserve">
     <value>button4</value>
   </data>
@@ -545,6 +992,15 @@
   </data>
   <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="boxGuestOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>964, 502</value>
+  </data>
+  <data name="boxGuestOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="boxGuestOut.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <data name="&gt;&gt;boxGuestOut.Name" xml:space="preserve">
     <value>boxGuestOut</value>
@@ -558,6 +1014,15 @@
   <data name="&gt;&gt;boxGuestOut.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="boxGuestIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 502</value>
+  </data>
+  <data name="boxGuestIN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="boxGuestIN.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
   <data name="&gt;&gt;boxGuestIN.Name" xml:space="preserve">
     <value>boxGuestIN</value>
   </data>
@@ -569,6 +1034,27 @@
   </data>
   <data name="&gt;&gt;boxGuestIN.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>845, 498</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 25</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Ngày đi</value>
   </data>
   <data name="&gt;&gt;label23.Name" xml:space="preserve">
     <value>label23</value>
@@ -582,6 +1068,27 @@
   <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 502</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 25</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Ngày vào</value>
+  </data>
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
   </data>
@@ -593,6 +1100,15 @@
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="boxGuestPhone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>964, 418</value>
+  </data>
+  <data name="boxGuestPhone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="boxGuestPhone.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="&gt;&gt;boxGuestPhone.Name" xml:space="preserve">
     <value>boxGuestPhone</value>
@@ -606,6 +1122,27 @@
   <data name="&gt;&gt;boxGuestPhone.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>845, 418</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 25</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>SĐT</value>
+  </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
   </data>
@@ -617,6 +1154,15 @@
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="boxGuestsRoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 502</value>
+  </data>
+  <data name="boxGuestsRoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="boxGuestsRoom.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;boxGuestsRoom.Name" xml:space="preserve">
     <value>boxGuestsRoom</value>
@@ -630,6 +1176,27 @@
   <data name="&gt;&gt;boxGuestsRoom.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 502</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 25</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Phòng</value>
+  </data>
   <data name="&gt;&gt;label19.Name" xml:space="preserve">
     <value>label19</value>
   </data>
@@ -641,6 +1208,21 @@
   </data>
   <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="btnClearGuest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnClearGuest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1099, 27</value>
+  </data>
+  <data name="btnClearGuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnClearGuest.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnClearGuest.Text" xml:space="preserve">
+    <value>Clear</value>
   </data>
   <data name="&gt;&gt;btnClearGuest.Name" xml:space="preserve">
     <value>btnClearGuest</value>
@@ -654,6 +1236,21 @@
   <data name="&gt;&gt;btnClearGuest.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <data name="btnSearchAllGuest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSearchAllGuest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 27</value>
+  </data>
+  <data name="btnSearchAllGuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="btnSearchAllGuest.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnSearchAllGuest.Text" xml:space="preserve">
+    <value>Search All</value>
+  </data>
   <data name="&gt;&gt;btnSearchAllGuest.Name" xml:space="preserve">
     <value>btnSearchAllGuest</value>
   </data>
@@ -665,6 +1262,18 @@
   </data>
   <data name="&gt;&gt;btnSearchAllGuest.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="btnGuestSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 28</value>
+  </data>
+  <data name="btnGuestSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnGuestSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnGuestSearch.Text" xml:space="preserve">
+    <value>Search</value>
   </data>
   <data name="&gt;&gt;btnGuestSearch.Name" xml:space="preserve">
     <value>btnGuestSearch</value>
@@ -678,6 +1287,15 @@
   <data name="&gt;&gt;btnGuestSearch.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="boxLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 417</value>
+  </data>
+  <data name="boxLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="boxLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="&gt;&gt;boxLastName.Name" xml:space="preserve">
     <value>boxLastName</value>
   </data>
@@ -689,6 +1307,15 @@
   </data>
   <data name="&gt;&gt;boxLastName.ZOrder" xml:space="preserve">
     <value>14</value>
+  </data>
+  <data name="boxFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 417</value>
+  </data>
+  <data name="boxFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="boxFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;boxFirstName.Name" xml:space="preserve">
     <value>boxFirstName</value>
@@ -702,6 +1329,15 @@
   <data name="&gt;&gt;boxFirstName.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
+  <data name="boxCMND.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 35</value>
+  </data>
+  <data name="boxCMND.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="boxCMND.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="&gt;&gt;boxCMND.Name" xml:space="preserve">
     <value>boxCMND</value>
   </data>
@@ -713,6 +1349,18 @@
   </data>
   <data name="&gt;&gt;boxCMND.ZOrder" xml:space="preserve">
     <value>16</value>
+  </data>
+  <data name="GuestGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 109</value>
+  </data>
+  <data name="GuestGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="GuestGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1290, 275</value>
+  </data>
+  <data name="GuestGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;GuestGridView.Name" xml:space="preserve">
     <value>GuestGridView</value>
@@ -726,6 +1374,27 @@
   <data name="&gt;&gt;GuestGridView.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 35</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 25</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>CMND/CCCD</value>
+  </data>
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
   </data>
@@ -738,6 +1407,27 @@
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 418</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Tên</value>
+  </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
   </data>
@@ -749,6 +1439,24 @@
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>19</value>
+  </data>
+  <data name="FirstName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FirstName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="FirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 418</value>
+  </data>
+  <data name="FirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 25</value>
+  </data>
+  <data name="FirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FirstName.Text" xml:space="preserve">
+    <value>Họ</value>
   </data>
   <data name="&gt;&gt;FirstName.Name" xml:space="preserve">
     <value>FirstName</value>
@@ -796,7 +1504,7 @@
     <value>832, 84</value>
   </data>
   <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 33</value>
   </data>
   <data name="button10.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -823,7 +1531,7 @@
     <value>448, 49</value>
   </data>
   <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 23</value>
+    <value>114, 33</value>
   </data>
   <data name="button9.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -850,7 +1558,7 @@
     <value>340, 84</value>
   </data>
   <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 33</value>
   </data>
   <data name="button8.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -943,7 +1651,7 @@
     <value>950, 83</value>
   </data>
   <data name="btnAddtest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 33</value>
   </data>
   <data name="btnAddtest.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1021,7 +1729,7 @@
     <value>716, 84</value>
   </data>
   <data name="btnBikeSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
+    <value>105, 33</value>
   </data>
   <data name="btnBikeSearch.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1045,7 +1753,7 @@
     <value>340, 48</value>
   </data>
   <data name="btnDoorSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 33</value>
   </data>
   <data name="btnDoorSearch.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1194,1527 +1902,11 @@
   <data name="&gt;&gt;tabLogCheck.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
-    <value>textBox6</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;boxCardGiveGuest.Name" xml:space="preserve">
-    <value>boxCardGiveGuest</value>
-  </data>
-  <data name="&gt;&gt;boxCardGiveGuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxCardGiveGuest.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;boxCardGiveGuest.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label15.Name" xml:space="preserve">
-    <value>label15</value>
-  </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnCancelAddG.Name" xml:space="preserve">
-    <value>btnCancelAddG</value>
-  </data>
-  <data name="&gt;&gt;btnCancelAddG.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCancelAddG.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;btnCancelAddG.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnAddGuest.Name" xml:space="preserve">
-    <value>btnAddGuest</value>
-  </data>
-  <data name="&gt;&gt;btnAddGuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAddGuest.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;btnAddGuest.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerOut.Name" xml:space="preserve">
-    <value>dateTimePickerOut</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerOut.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerOut.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerOut.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerIn.Name" xml:space="preserve">
-    <value>dateTimePickerIn</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerIn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerIn.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerIn.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label22.Name" xml:space="preserve">
-    <value>label22</value>
-  </data>
-  <data name="&gt;&gt;label22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;label21.Name" xml:space="preserve">
-    <value>label21</value>
-  </data>
-  <data name="&gt;&gt;label21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
-    <value>textBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;label20.Name" xml:space="preserve">
-    <value>label20</value>
-  </data>
-  <data name="&gt;&gt;label20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
-    <value>textBox4</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;label18.Name" xml:space="preserve">
-    <value>label18</value>
-  </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;label17.Name" xml:space="preserve">
-    <value>label17</value>
-  </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
-  </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="tabAddGuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 34</value>
-  </data>
-  <data name="tabAddGuest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabAddGuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1312, 618</value>
-  </data>
-  <data name="tabAddGuest.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="tabAddGuest.Text" xml:space="preserve">
-    <value>Thêm Khách</value>
-  </data>
-  <data name="&gt;&gt;tabAddGuest.Name" xml:space="preserve">
-    <value>tabAddGuest</value>
-  </data>
-  <data name="&gt;&gt;tabAddGuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabAddGuest.Parent" xml:space="preserve">
-    <value>qlchtabControl</value>
-  </data>
-  <data name="&gt;&gt;tabAddGuest.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="qlchtabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="qlchtabControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="qlchtabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1320, 656</value>
-  </data>
-  <data name="qlchtabControl.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;qlchtabControl.Name" xml:space="preserve">
-    <value>qlchtabControl</value>
-  </data>
-  <data name="&gt;&gt;qlchtabControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;qlchtabControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;qlchtabControl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 105</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Change</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="boxCardStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 270</value>
-  </data>
-  <data name="boxCardStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="boxCardStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;boxCardStatus.Name" xml:space="preserve">
-    <value>boxCardStatus</value>
-  </data>
-  <data name="&gt;&gt;boxCardStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxCardStatus.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;boxCardStatus.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.2pt</value>
-  </data>
-  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 272</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnCardIDClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCardIDClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>696, 550</value>
-  </data>
-  <data name="btnCardIDClear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnCardIDClear.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="btnCardIDClear.Text" xml:space="preserve">
-    <value>Clear</value>
-  </data>
-  <data name="&gt;&gt;btnCardIDClear.Name" xml:space="preserve">
-    <value>btnCardIDClear</value>
-  </data>
-  <data name="&gt;&gt;btnCardIDClear.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCardIDClear.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;btnCardIDClear.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnDelCardID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnDelCardID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 347</value>
-  </data>
-  <data name="btnDelCardID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnDelCardID.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="btnDelCardID.Text" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="&gt;&gt;btnDelCardID.Name" xml:space="preserve">
-    <value>btnDelCardID</value>
-  </data>
-  <data name="&gt;&gt;btnDelCardID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDelCardID.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;btnDelCardID.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnAddCardID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnAddCardID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 347</value>
-  </data>
-  <data name="btnAddCardID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnAddCardID.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnAddCardID.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="&gt;&gt;btnAddCardID.Name" xml:space="preserve">
-    <value>btnAddCardID</value>
-  </data>
-  <data name="&gt;&gt;btnAddCardID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAddCardID.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;btnAddCardID.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnSearchAllCardID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnSearchAllCardID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>548, 550</value>
-  </data>
-  <data name="btnSearchAllCardID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 23</value>
-  </data>
-  <data name="btnSearchAllCardID.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="btnSearchAllCardID.Text" xml:space="preserve">
-    <value>Search All</value>
-  </data>
-  <data name="&gt;&gt;btnSearchAllCardID.Name" xml:space="preserve">
-    <value>btnSearchAllCardID</value>
-  </data>
-  <data name="&gt;&gt;btnSearchAllCardID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSearchAllCardID.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;btnSearchAllCardID.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="boxCardsGuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 189</value>
-  </data>
-  <data name="boxCardsGuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="boxCardsGuest.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;boxCardsGuest.Name" xml:space="preserve">
-    <value>boxCardsGuest</value>
-  </data>
-  <data name="&gt;&gt;boxCardsGuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxCardsGuest.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;boxCardsGuest.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.2pt</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 189</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Guest</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="boxCardsRoom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 106</value>
-  </data>
-  <data name="boxCardsRoom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="boxCardsRoom.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;boxCardsRoom.Name" xml:space="preserve">
-    <value>boxCardsRoom</value>
-  </data>
-  <data name="&gt;&gt;boxCardsRoom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxCardsRoom.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;boxCardsRoom.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="CardGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>548, 6</value>
-  </data>
-  <data name="CardGridView.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="CardGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>757, 522</value>
-  </data>
-  <data name="CardGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;CardGridView.Name" xml:space="preserve">
-    <value>CardGridView</value>
-  </data>
-  <data name="&gt;&gt;CardGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CardGridView.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;CardGridView.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="boxCardID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 34</value>
-  </data>
-  <data name="boxCardID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="boxCardID.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;boxCardID.Name" xml:space="preserve">
-    <value>boxCardID</value>
-  </data>
-  <data name="&gt;&gt;boxCardID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxCardID.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;boxCardID.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="cardidroom.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cardidroom.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.2pt</value>
-  </data>
-  <data name="cardidroom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 108</value>
-  </data>
-  <data name="cardidroom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="cardidroom.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="cardidroom.Text" xml:space="preserve">
-    <value>Room</value>
-  </data>
-  <data name="&gt;&gt;cardidroom.Name" xml:space="preserve">
-    <value>cardidroom</value>
-  </data>
-  <data name="&gt;&gt;cardidroom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cardidroom.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;cardidroom.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 35</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 25</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Card ID</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="btnSearchCardId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 34</value>
-  </data>
-  <data name="btnSearchCardId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnSearchCardId.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnSearchCardId.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="&gt;&gt;btnSearchCardId.Name" xml:space="preserve">
-    <value>btnSearchCardId</value>
-  </data>
-  <data name="&gt;&gt;btnSearchCardId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSearchCardId.Parent" xml:space="preserve">
-    <value>tabCardManage</value>
-  </data>
-  <data name="&gt;&gt;btnSearchCardId.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="RoomGuestDetail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 318</value>
-  </data>
-  <data name="RoomGuestDetail.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="RoomGuestDetail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>765, 215</value>
-  </data>
-  <data name="RoomGuestDetail.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;RoomGuestDetail.Name" xml:space="preserve">
-    <value>RoomGuestDetail</value>
-  </data>
-  <data name="&gt;&gt;RoomGuestDetail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RoomGuestDetail.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;RoomGuestDetail.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="boxRoomID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 36</value>
-  </data>
-  <data name="boxRoomID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 22</value>
-  </data>
-  <data name="boxRoomID.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;boxRoomID.Name" xml:space="preserve">
-    <value>boxRoomID</value>
-  </data>
-  <data name="&gt;&gt;boxRoomID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxRoomID.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;boxRoomID.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnAddRoom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnAddRoom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 262</value>
-  </data>
-  <data name="btnAddRoom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 23</value>
-  </data>
-  <data name="btnAddRoom.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="btnAddRoom.Text" xml:space="preserve">
-    <value>Add Room</value>
-  </data>
-  <data name="&gt;&gt;btnAddRoom.Name" xml:space="preserve">
-    <value>btnAddRoom</value>
-  </data>
-  <data name="&gt;&gt;btnAddRoom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAddRoom.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;btnAddRoom.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>699, 554</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 23</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Clear</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 554</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 23</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Search All</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnRoomTSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRoomTSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 120</value>
-  </data>
-  <data name="btnRoomTSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnRoomTSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="btnRoomTSearch.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="&gt;&gt;btnRoomTSearch.Name" xml:space="preserve">
-    <value>btnRoomTSearch</value>
-  </data>
-  <data name="&gt;&gt;btnRoomTSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRoomTSearch.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;btnRoomTSearch.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnRoomIDSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 35</value>
-  </data>
-  <data name="btnRoomIDSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnRoomIDSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="btnRoomIDSearch.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="&gt;&gt;btnRoomIDSearch.Name" xml:space="preserve">
-    <value>btnRoomIDSearch</value>
-  </data>
-  <data name="&gt;&gt;btnRoomIDSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRoomIDSearch.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;btnRoomIDSearch.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="boxRoomType.Items" xml:space="preserve">
-    <value>2 người</value>
-  </data>
-  <data name="boxRoomType.Items1" xml:space="preserve">
-    <value>4 người</value>
-  </data>
-  <data name="boxRoomType.Items2" xml:space="preserve">
-    <value>6 người</value>
-  </data>
-  <data name="boxRoomType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 119</value>
-  </data>
-  <data name="boxRoomType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 24</value>
-  </data>
-  <data name="boxRoomType.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;boxRoomType.Name" xml:space="preserve">
-    <value>boxRoomType</value>
-  </data>
-  <data name="&gt;&gt;boxRoomType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxRoomType.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;boxRoomType.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 119</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 17</value>
-  </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Room Type</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="boxRoomStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 200</value>
-  </data>
-  <data name="boxRoomStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 22</value>
-  </data>
-  <data name="boxRoomStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;boxRoomStatus.Name" xml:space="preserve">
-    <value>boxRoomStatus</value>
-  </data>
-  <data name="&gt;&gt;boxRoomStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxRoomStatus.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;boxRoomStatus.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 200</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 17</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="RoomGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 6</value>
-  </data>
-  <data name="RoomGridView.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="RoomGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>765, 289</value>
-  </data>
-  <data name="RoomGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;RoomGridView.Name" xml:space="preserve">
-    <value>RoomGridView</value>
-  </data>
-  <data name="&gt;&gt;RoomGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RoomGridView.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;RoomGridView.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 35</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 25</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Room</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>tabRoomManage</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 555</value>
-  </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 23</value>
-  </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>Check out</value>
-  </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="boxGuestOut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 473</value>
-  </data>
-  <data name="boxGuestOut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="boxGuestOut.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;boxGuestOut.Name" xml:space="preserve">
-    <value>boxGuestOut</value>
-  </data>
-  <data name="&gt;&gt;boxGuestOut.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxGuestOut.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;boxGuestOut.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="boxGuestIN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 404</value>
-  </data>
-  <data name="boxGuestIN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="boxGuestIN.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;boxGuestIN.Name" xml:space="preserve">
-    <value>boxGuestIN</value>
-  </data>
-  <data name="&gt;&gt;boxGuestIN.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxGuestIN.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;boxGuestIN.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 470</value>
-  </data>
-  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 25</value>
-  </data>
-  <data name="label23.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="label23.Text" xml:space="preserve">
-    <value>Ngày đi</value>
-  </data>
-  <data name="&gt;&gt;label23.Name" xml:space="preserve">
-    <value>label23</value>
-  </data>
-  <data name="&gt;&gt;label23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 404</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 25</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Ngày vào</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="boxGuestPhone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 334</value>
-  </data>
-  <data name="boxGuestPhone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="boxGuestPhone.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;boxGuestPhone.Name" xml:space="preserve">
-    <value>boxGuestPhone</value>
-  </data>
-  <data name="&gt;&gt;boxGuestPhone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxGuestPhone.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;boxGuestPhone.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 330</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 25</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>SĐT</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="boxGuestsRoom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 260</value>
-  </data>
-  <data name="boxGuestsRoom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="boxGuestsRoom.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;boxGuestsRoom.Name" xml:space="preserve">
-    <value>boxGuestsRoom</value>
-  </data>
-  <data name="&gt;&gt;boxGuestsRoom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxGuestsRoom.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;boxGuestsRoom.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 256</value>
-  </data>
-  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 25</value>
-  </data>
-  <data name="label19.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="label19.Text" xml:space="preserve">
-    <value>Phòng</value>
-  </data>
-  <data name="&gt;&gt;label19.Name" xml:space="preserve">
-    <value>label19</value>
-  </data>
-  <data name="&gt;&gt;label19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="btnClearGuest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnClearGuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>910, 555</value>
-  </data>
-  <data name="btnClearGuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnClearGuest.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnClearGuest.Text" xml:space="preserve">
-    <value>Clear</value>
-  </data>
-  <data name="&gt;&gt;btnClearGuest.Name" xml:space="preserve">
-    <value>btnClearGuest</value>
-  </data>
-  <data name="&gt;&gt;btnClearGuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnClearGuest.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;btnClearGuest.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="btnSearchAllGuest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnSearchAllGuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 555</value>
-  </data>
-  <data name="btnSearchAllGuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 23</value>
-  </data>
-  <data name="btnSearchAllGuest.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="btnSearchAllGuest.Text" xml:space="preserve">
-    <value>Search All</value>
-  </data>
-  <data name="&gt;&gt;btnSearchAllGuest.Name" xml:space="preserve">
-    <value>btnSearchAllGuest</value>
-  </data>
-  <data name="&gt;&gt;btnSearchAllGuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSearchAllGuest.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;btnSearchAllGuest.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="btnGuestSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 555</value>
-  </data>
-  <data name="btnGuestSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
-  </data>
-  <data name="btnGuestSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnGuestSearch.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="&gt;&gt;btnGuestSearch.Name" xml:space="preserve">
-    <value>btnGuestSearch</value>
-  </data>
-  <data name="&gt;&gt;btnGuestSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnGuestSearch.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;btnGuestSearch.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="boxLastName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 190</value>
-  </data>
-  <data name="boxLastName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="boxLastName.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;boxLastName.Name" xml:space="preserve">
-    <value>boxLastName</value>
-  </data>
-  <data name="&gt;&gt;boxLastName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxLastName.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;boxLastName.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="boxFirstName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 126</value>
-  </data>
-  <data name="boxFirstName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="boxFirstName.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;boxFirstName.Name" xml:space="preserve">
-    <value>boxFirstName</value>
-  </data>
-  <data name="&gt;&gt;boxFirstName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxFirstName.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;boxFirstName.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="boxCMND.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 47</value>
-  </data>
-  <data name="boxCMND.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="boxCMND.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;boxCMND.Name" xml:space="preserve">
-    <value>boxCMND</value>
-  </data>
-  <data name="&gt;&gt;boxCMND.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxCMND.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;boxCMND.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="GuestGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 6</value>
-  </data>
-  <data name="GuestGridView.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="GuestGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>817, 522</value>
-  </data>
-  <data name="GuestGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;GuestGridView.Name" xml:space="preserve">
-    <value>GuestGridView</value>
-  </data>
-  <data name="&gt;&gt;GuestGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GuestGridView.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;GuestGridView.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 43</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 50</value>
-  </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>CMND
-/CCCD</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 186</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Tên</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="FirstName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="FirstName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="FirstName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 122</value>
-  </data>
-  <data name="FirstName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 25</value>
-  </data>
-  <data name="FirstName.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="FirstName.Text" xml:space="preserve">
-    <value>Họ</value>
-  </data>
-  <data name="&gt;&gt;FirstName.Name" xml:space="preserve">
-    <value>FirstName</value>
-  </data>
-  <data name="&gt;&gt;FirstName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FirstName.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;FirstName.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
   <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
     <value>509, 380</value>
   </data>
   <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 33</value>
   </data>
   <data name="button5.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -2849,7 +2041,7 @@
     <value>769, 380</value>
   </data>
   <data name="btnCancelAddG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 33</value>
   </data>
   <data name="btnCancelAddG.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -2873,7 +2065,7 @@
     <value>636, 380</value>
   </data>
   <data name="btnAddGuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 33</value>
   </data>
   <data name="btnAddGuest.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -3220,58 +2412,55 @@
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="button6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="tabAddGuest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
   </data>
-  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>630, 555</value>
+  <data name="tabAddGuest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
   </data>
-  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 23</value>
+  <data name="tabAddGuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1312, 618</value>
   </data>
-  <data name="button6.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+  <data name="tabAddGuest.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="button6.Text" xml:space="preserve">
-    <value>Staying</value>
+  <data name="tabAddGuest.Text" xml:space="preserve">
+    <value>Thêm Khách</value>
   </data>
-  <data name="&gt;&gt;button6.Name" xml:space="preserve">
-    <value>button6</value>
+  <data name="&gt;&gt;tabAddGuest.Name" xml:space="preserve">
+    <value>tabAddGuest</value>
   </data>
-  <data name="&gt;&gt;button6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tabAddGuest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
+  <data name="&gt;&gt;tabAddGuest.Parent" xml:space="preserve">
+    <value>qlchtabControl</value>
   </data>
-  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;tabAddGuest.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="qlchtabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>766, 555</value>
+  <data name="qlchtabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 23</value>
+  <data name="qlchtabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1320, 656</value>
   </data>
-  <data name="button7.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="qlchtabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="button7.Text" xml:space="preserve">
-    <value>Finish</value>
+  <data name="&gt;&gt;qlchtabControl.Name" xml:space="preserve">
+    <value>qlchtabControl</value>
   </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
+  <data name="&gt;&gt;qlchtabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;qlchtabControl.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
-    <value>tabGuestManage</value>
-  </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;qlchtabControl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

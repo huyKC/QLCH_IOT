@@ -61,6 +61,8 @@
             this.RoomGridView = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.tabGuestManage = new System.Windows.Forms.TabPage();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.boxGuestOut = new System.Windows.Forms.TextBox();
             this.boxGuestIN = new System.Windows.Forms.TextBox();
@@ -81,6 +83,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.FirstName = new System.Windows.Forms.Label();
             this.tabLogCheck = new System.Windows.Forms.TabPage();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.btnAddtest = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -111,13 +118,6 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.qlchtabControl.SuspendLayout();
             this.tabCardManage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CardGridView)).BeginInit();
@@ -146,7 +146,7 @@
             // 
             // tabCardManage
             // 
-            this.tabCardManage.BackColor = System.Drawing.Color.Silver;
+            this.tabCardManage.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.tabCardManage.Controls.Add(this.button1);
             this.tabCardManage.Controls.Add(this.boxCardStatus);
             this.tabCardManage.Controls.Add(this.label13);
@@ -191,16 +191,18 @@
             // 
             // btnDelCardID
             // 
+            this.btnDelCardID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             resources.ApplyResources(this.btnDelCardID, "btnDelCardID");
             this.btnDelCardID.Name = "btnDelCardID";
-            this.btnDelCardID.UseVisualStyleBackColor = true;
+            this.btnDelCardID.UseVisualStyleBackColor = false;
             this.btnDelCardID.Click += new System.EventHandler(this.btnDelCardID_Click);
             // 
             // btnAddCardID
             // 
+            this.btnAddCardID.BackColor = System.Drawing.Color.MediumSpringGreen;
             resources.ApplyResources(this.btnAddCardID, "btnAddCardID");
             this.btnAddCardID.Name = "btnAddCardID";
-            this.btnAddCardID.UseVisualStyleBackColor = true;
+            this.btnAddCardID.UseVisualStyleBackColor = false;
             this.btnAddCardID.Click += new System.EventHandler(this.btnAddCardID_Click);
             // 
             // btnSearchAllCardID
@@ -257,7 +259,7 @@
             // 
             // tabRoomManage
             // 
-            this.tabRoomManage.BackColor = System.Drawing.Color.Silver;
+            this.tabRoomManage.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.tabRoomManage.Controls.Add(this.RoomGuestDetail);
             this.tabRoomManage.Controls.Add(this.boxRoomID);
             this.tabRoomManage.Controls.Add(this.btnAddRoom);
@@ -288,9 +290,10 @@
             // 
             // btnAddRoom
             // 
+            this.btnAddRoom.BackColor = System.Drawing.Color.MediumSpringGreen;
             resources.ApplyResources(this.btnAddRoom, "btnAddRoom");
             this.btnAddRoom.Name = "btnAddRoom";
-            this.btnAddRoom.UseVisualStyleBackColor = true;
+            this.btnAddRoom.UseVisualStyleBackColor = false;
             this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
             // 
             // button3
@@ -361,7 +364,7 @@
             // 
             // tabGuestManage
             // 
-            this.tabGuestManage.BackColor = System.Drawing.Color.Silver;
+            this.tabGuestManage.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.tabGuestManage.Controls.Add(this.button7);
             this.tabGuestManage.Controls.Add(this.button6);
             this.tabGuestManage.Controls.Add(this.button4);
@@ -386,11 +389,26 @@
             resources.ApplyResources(this.tabGuestManage, "tabGuestManage");
             this.tabGuestManage.Name = "tabGuestManage";
             // 
+            // button7
+            // 
+            resources.ApplyResources(this.button7, "button7");
+            this.button7.Name = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button6
+            // 
+            resources.ApplyResources(this.button6, "button6");
+            this.button6.Name = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.MediumSpringGreen;
             resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // boxGuestOut
@@ -435,9 +453,10 @@
             // 
             // btnClearGuest
             // 
+            this.btnClearGuest.BackColor = System.Drawing.Color.Silver;
             resources.ApplyResources(this.btnClearGuest, "btnClearGuest");
             this.btnClearGuest.Name = "btnClearGuest";
-            this.btnClearGuest.UseVisualStyleBackColor = true;
+            this.btnClearGuest.UseVisualStyleBackColor = false;
             this.btnClearGuest.Click += new System.EventHandler(this.btnClearGuest_Click);
             // 
             // btnSearchAllGuest
@@ -494,7 +513,7 @@
             // 
             // tabLogCheck
             // 
-            this.tabLogCheck.BackColor = System.Drawing.Color.Silver;
+            this.tabLogCheck.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.tabLogCheck.Controls.Add(this.button10);
             this.tabLogCheck.Controls.Add(this.button9);
             this.tabLogCheck.Controls.Add(this.button8);
@@ -512,6 +531,38 @@
             this.tabLogCheck.Controls.Add(this.RoomLogGridView);
             resources.ApplyResources(this.tabLogCheck, "tabLogCheck");
             this.tabLogCheck.Name = "tabLogCheck";
+            // 
+            // button10
+            // 
+            resources.ApplyResources(this.button10, "button10");
+            this.button10.Name = "button10";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button9
+            // 
+            resources.ApplyResources(this.button9, "button9");
+            this.button9.Name = "button9";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button8
+            // 
+            resources.ApplyResources(this.button8, "button8");
+            this.button8.Name = "button8";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // textBox8
+            // 
+            resources.ApplyResources(this.textBox8, "textBox8");
+            this.textBox8.Name = "textBox8";
+            // 
+            // checkBox1
+            // 
+            resources.ApplyResources(this.checkBox1, "checkBox1");
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // textBox7
             // 
@@ -575,7 +626,7 @@
             // 
             // tabAddGuest
             // 
-            this.tabAddGuest.BackColor = System.Drawing.Color.Silver;
+            this.tabAddGuest.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.tabAddGuest.Controls.Add(this.button5);
             this.tabAddGuest.Controls.Add(this.textBox6);
             this.tabAddGuest.Controls.Add(this.label8);
@@ -635,9 +686,10 @@
             // 
             // btnAddGuest
             // 
+            this.btnAddGuest.BackColor = System.Drawing.Color.MediumSpringGreen;
             resources.ApplyResources(this.btnAddGuest, "btnAddGuest");
             this.btnAddGuest.Name = "btnAddGuest";
-            this.btnAddGuest.UseVisualStyleBackColor = true;
+            this.btnAddGuest.UseVisualStyleBackColor = false;
             this.btnAddGuest.Click += new System.EventHandler(this.btnAddGuest_Click);
             // 
             // dateTimePickerOut
@@ -701,58 +753,13 @@
             resources.ApplyResources(this.label16, "label16");
             this.label16.Name = "label16";
             // 
-            // button6
-            // 
-            resources.ApplyResources(this.button6, "button6");
-            this.button6.Name = "button6";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button7
-            // 
-            resources.ApplyResources(this.button7, "button7");
-            this.button7.Name = "button7";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // checkBox1
-            // 
-            resources.ApplyResources(this.checkBox1, "checkBox1");
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // textBox8
-            // 
-            resources.ApplyResources(this.textBox8, "textBox8");
-            this.textBox8.Name = "textBox8";
-            // 
-            // button8
-            // 
-            resources.ApplyResources(this.button8, "button8");
-            this.button8.Name = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button9
-            // 
-            resources.ApplyResources(this.button9, "button9");
-            this.button9.Name = "button9";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button10
-            // 
-            resources.ApplyResources(this.button10, "button10");
-            this.button10.Name = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
             // mainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.Controls.Add(this.qlchtabControl);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "mainForm";
             this.Load += new System.EventHandler(this.mainForm_Load);
